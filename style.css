@@ -88,6 +88,82 @@ body {
     display: block;
 }
 
+#scroll-container {
+    font-size: 3vh;
+    margin: auto;
+    overflow: hidden;
+    font-weight: 600;
+    font-style: normal;
+    height: 10vh;
+    /* margin-left: 50px; */
+    /* border-bottom: 3px solid #484237; */
+}
+  
+#scroll-text {
+    /* animation properties */
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    overflow: hidden;
+    -moz-animation: my-animation 12s linear infinite;
+    -webkit-animation: my-animation 12s linear infinite;
+    animation: my-animation 12s linear infinite;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    background-color: transparent;
+}
+
+#scroll-text span {
+    color: red;
+}
+
+#scroll-text p {
+    color: white;
+}
+  
+/* #scroll-text img {
+    width: 8vw;
+    height: 5vh;
+} */
+  
+  /* for Firefox */
+@-moz-keyframes my-animation {
+    from {
+      -moz-transform: translateX(100%);
+    }
+    to {
+      -moz-transform: translateX(-100%);
+    }
+}
+  
+  /* for Chrome */
+@-webkit-keyframes my-animation {
+    from {
+      -webkit-transform: translateX(100%);
+    }
+    to {
+      -webkit-transform: translateX(-100%);
+    }
+}
+  
+@keyframes my-animation {
+    from {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+    to {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+}
+
 .content {
     height: 100%;
     width: 100%;
@@ -188,7 +264,7 @@ body {
     margin-bottom: 3vw;
 } */
 
-.container-left {
+/* .container-left {
     float: left;
     color: white;
     width: 50%;
@@ -224,7 +300,7 @@ body {
     margin-left: 3vw;
     margin-bottom: 2vw;
     margin-top: 2vw;
-}
+} */
 
 #slideshow {
     padding-bottom: 10px;
@@ -232,7 +308,7 @@ body {
   }
   
   /* Slideshow container */
-  .slideshow-container {
+.slideshow-container {
     max-width: 75vw;
     position: relative;
     margin: auto;
@@ -305,6 +381,10 @@ body {
     }
 }
 
+.fade img {
+    height: 80vh;
+}
+
 /* .container-left {
     align-items: center;
     display: flex;
@@ -356,3 +436,111 @@ body {
     z-index: 2;
     color: white;
 } */
+
+.w3-content {
+    text-align: center;
+    margin: 2vw;
+}
+
+.myslides1 {
+    display: none;
+    width: 100%;
+}
+
+.w3-container h1 {
+    color: red;
+    text-align: center;
+    margin: 2vw;
+}
+
+.w3-container p {
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin-left: 25vw;
+}
+
+.speakers {
+    margin: 2vw;
+}
+
+.speakers h2 {
+    color: red;
+    text-align: center;
+    font-size: 5vh;
+    margin: 2vw;
+}
+
+.speakers p {
+    color: white;
+    font-size: 3vh;
+    text-align: center;
+}
+
+/* .profile {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2vw;
+    margin-left: 8vw;
+}
+
+.profile img {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+} */
+
+.profile ul {
+    display: flex;
+    gap: 10vw;
+    list-style-type: none;
+    margin: 20px 0px 0px 0px;
+    justify-content: center;
+  }
+  
+  .profile ul li {
+    text-align: center;
+  }
+  
+  /* .profile ul li a {
+    font-size: 3.8vh;
+    font-weight: 600;
+    color: #484237;
+    text-decoration: none;
+    text-align: center;
+  } */
+
+  .profile ul li div {
+    color: white;
+  }
+  
+  .profile ul li div:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  
+  .profile ul li p {
+    font-size: 2.8vh;
+    font-weight: 400;
+    color: white;
+    width: 20vw;
+    margin: 20px 0px 0px 0px;
+  }
+  
+  .profile ul li p:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  
+  .profile ul li img {
+    margin-bottom: 20px;
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 20vw;
+    height: 20vw;
+    cursor: pointer;
+  }
+
+  .profile ul li img:hover {
+    transform: scale(1.1);
+  }
