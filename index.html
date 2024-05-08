@@ -34,13 +34,13 @@
               <a href="safety.html">Safety and Security</a>
             </div>
           </div>
-          <div class="dropdown">
+          <!-- <div class="dropdown">
             <button class="dropbtn">PARTNER'S</button>
             <div class="dropdown-content">
               <a href="#">Why TEDxSGVS</a>
               <a href="#">Partners Registration</a>
             </div>
-          </div>
+          </div> -->
           <div class="dropdown">
             <button class="dropbtn">REGISTRATION</button>
             <div class="dropdown-content">
@@ -72,6 +72,30 @@
           <p id="demo">
             <span>TEDxSGVS Youth </span> is Happening on 29 June 2024 :)
           </p>
+          <!-- A button to open the popup form -->
+          <button class="open-button" onclick="openForm()">Buy Tickets</button>
+
+<!-- The form -->
+          <div class="form-popup" id="myForm">
+          <form action="https://formsubmit.co/tedxsgvs.delhi@gmail.com" method="POST" class="form-container">
+          <h1>Ticket Window for TEDxSGVS</h1>
+
+            <!-- <label for="name"><b>Full Name</b></label> -->
+            <input type="text" placeholder="Enter Your Full Name" name="name" required>
+
+            <!-- <label for="email"><b>Email</b></label> -->
+            <input type="text" placeholder="Enter Email" name="email" required>
+
+            <!-- <label for="phone"><b>Phone Number</b></label> -->
+            <input type="tel" placeholder="Enter Phone Number" name="phone" required>
+
+            <label for="payss"><b>Screenshot of Payment</b><br></label>
+            <input type="file" name="payss" required>
+
+            <button type="submit" class="btn">Submit</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+          </form>
+        </div>
         </div>
         <div class="right">
           <img src="images/banner.jpg" alt="" />

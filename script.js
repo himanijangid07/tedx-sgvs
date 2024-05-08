@@ -53,3 +53,11 @@ function carousel() {
   x[slide-1].style.display = "block"; 
   setTimeout(carousel, 2000); 
 }
+
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
