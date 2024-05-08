@@ -250,7 +250,7 @@ body {
 #myForm {
     margin-top: 8vw;
     margin-right: 28vw;
-    margin-bottom: 4vw;
+    margin-bottom: 2vw;
 }
 
 .form-container h1 {
@@ -318,6 +318,13 @@ body {
 /* Add some hover effects to buttons */
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
+}
+
+.form-container p {
+    color: white;
+    font-size: 3vh;
+    text-align: center;
+    margin-bottom: 1vw;
 }
 
 .right img {

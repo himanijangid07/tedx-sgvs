@@ -111,20 +111,40 @@ body {
     padding: 5vw;
 }
 
-.first {
+.profile ul {
     display: flex;
-    gap: 5vw;
+    gap: 15vw;
+    list-style-type: none;
+    margin: 10px 0px 0px 0px;
     justify-content: center;
-    align-items: center;
-    height: 40vh;
-    padding: 5vw;
+}
+  
+.profile ul li {
+    text-align: center;
+}
+  
+  /* .profile ul li a {
+    font-size: 3.8vh;
+    font-weight: 600;
+    color: #484237;
+    text-decoration: none;
+    text-align: center;
+  } */
+
+.profile ul li div {
+    color: white;
+    font-size: 4vh;
+    margin-bottom: 2vw;
+}
+  
+.profile ul li img {
+    margin-bottom: 20px;
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 20vw;
+    height: 20vw;
 }
 
-.first img {
-    width: 22vw;
-    height: 50vh;
-    border-radius: 50%;
-}
 .footer {
     display: flex;
     color: white;
