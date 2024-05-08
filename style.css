@@ -495,7 +495,7 @@ body {
 
 .profile ul {
     display: flex;
-    gap: 10vw;
+    gap: 15vw;
     list-style-type: none;
     margin: 20px 0px 0px 0px;
     justify-content: center;
@@ -515,6 +515,7 @@ body {
 
   .profile ul li div {
     color: white;
+    font-size: 4vh;
   }
   
   .profile ul li div:hover {
@@ -533,20 +534,25 @@ body {
   .profile ul li p:hover {
     transform: scale(1.2);
     cursor: pointer;
+    text-align: center;
   }
   
   .profile ul li img {
     margin-bottom: 20px;
     border-radius: 50%;
     margin-top: 20px;
-    width: 20vw;
-    height: 20vw;
+    width: 25vw;
+    height: 25vw;
     cursor: pointer;
   }
 
   .profile ul li img:hover {
     transform: scale(1.1);
   }
+
+.profile ul li a {
+    text-decoration: none;
+}
 
 .contact {
     margin: 2vw;
@@ -572,6 +578,47 @@ body {
 .contact ul {
     display: flex;
     gap: 0.5vw;
+}
+
+.form {
+    margin-left: 2vw;
+}
+
+.form label {
+    color: white;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.form input {
+    width: 20%;
+    margin-bottom: 1vw;
+    border-radius: 0.5vw;
+}
+
+.form button {
+    width: 7vw;
+    height: 5vh;
+    color: white;
+    background-color: red;
+    border-radius: 0.5vw;
+    margin-top: 1vw;
+}
+
+.form button:hover {
+    cursor: pointer;
+}
+
+.form textarea {
+    width: 20%;
+    border-radius: 0.5vw;
+    margin-top: 1vw;
+}
+
+.footer {
+    display: flex;
+    color: white;
+    margin-left: 5vw;
 }
 
 footer {

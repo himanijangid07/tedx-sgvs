@@ -22,16 +22,16 @@
             <button class="dropbtn">ABOUT US</button>
             <div class="dropdown-content">
               <a href="#ted">TED</a>
-              <a href="#tedx">TEDX</a>
-              <a href="#sgvs">SGVS</a>
-              <a href="#">Team Member</a>
+              <a href="#ted">TEDX</a>
+              <a href="#ted">SGVS</a>
+              <a href="team.html">Team Member</a>
             </div>
           </div>
           <div class="dropdown">
             <button class="dropbtn">EVENTS</button>
             <div class="dropdown-content">
-              <a href="#">Attendee Rules and Regulations</a>
-              <a href="#">Safety and Security</a>
+              <a href="attendee.html">Attendee Rules and Regulations</a>
+              <a href="safety.html">Safety and Security</a>
             </div>
           </div>
           <div class="dropdown">
@@ -163,7 +163,7 @@
         </div>
       </div> -->
 
-      <div class="w3-content" style="max-width:100%">
+      <div id="ted" class="w3-content" style="max-width:100%">
         <div class="mySlides1 w3-container w3-red">
           <h1><b>About TED</b></h1>
           <div class="para">
@@ -221,22 +221,26 @@
           <img src="images/profile.webp" alt=""> -->
           <ul>
             <li>
-              <img src="images/profile1.jpg" alt="">
-              <br>
-              <div>Name</div>
-              <p>Designation</p>
+              <a href="speakers.html">
+                <img src="images/profile1.jpg" alt="">
+                <br>
+                <div>
+                  <b>Adv Heena Khurana Nagpal</b>
+                  <br>
+                  Advocate
+                </div>
+              </a>
             </li>
             <li>
-              <img src="images/profile.webp" alt="">
-              <br>
-              <div>Name</div>
-              <p>Designation</p>
-            </li>
-            <li>
-              <img src="images/profile.webp" alt="">
-              <br>
-              <div>Name</div>
-              <p>Designation</p>
+              <a href="speakers.html">
+                <img src="images/profile2.jpg" alt="">
+                <br>
+                <div>
+                  <b>Avika Jain</b>
+                  <br>
+                  Wunderkind
+                </div>
+              </a>
             </li>
           </ul>
         </div>
@@ -248,18 +252,46 @@
           <img src="images/profile.webp" alt=""> -->
           <ul>
             <li>
-              <img src="images/11.png" alt="">
-              <br>
-              <!-- <div class="box">?</div> -->
+              <a href="speakers.html">
+                <img src="images/profile3.jpg" alt="">
+                <br>
+                <div>
+                  <b>Dr Ati Priye</b>
+                  <br>
+                  CEO - Incubator - CGC Division of 
+                  <br>
+                  Research & Innovation
+                </div>
+              </a>
             </li>
             <li>
-              <img src="images/12.png" alt="">
-              <br>
+              <a href="speakers.html">
+                <img src="images/11.png" alt="">
+                <br>
+              </a>
+              <!-- <div class="box">?</div> -->
+            </li>
+          </ul>
+        </div>
+        <div class="profile">
+          <!-- <img src="images/profile.webp" alt="">
+          <br>
+          <p>Name, Designation</p>
+          <img src="images/profile.webp" alt="">
+          <img src="images/profile.webp" alt=""> -->
+          <ul>
+            <li>
+              <a href="speakers.html">
+                <img src="images/12.png" alt="">
+                <br>
+              </a>
               <!-- <div class="box">You can be the next one..</div> -->
             </li>
             <li>
-              <img src="images/13.png" alt="">
-              <br>
+              <a href="speakers.html">
+                <img src="images/13.png" alt="">
+                <br>
+              </a>
               <!-- <div class="box">Imagining yourself here??</div> -->
             </li>
           </ul>
@@ -280,6 +312,64 @@
           </li>
         </ul>
       </div>
+
+      <div class="form">
+        <form action="https://formsubmit.co/tedxsgvs.delhi@gmail.com" method="POST">
+          <label for="uname"> 
+            <i class="fa fa-solid fa-user"></i> 
+            Full Name 
+        </label>
+        <br> 
+        <input type="text" id="uname" 
+               name="uname" required>
+               <br> 
+  
+        <label for="email"> 
+            <i class="fa fa-solid fa-envelope"></i> 
+            Email Address 
+        </label>
+        <br> 
+        <input type="email" id="email" 
+               name="email" required> 
+               <br>
+  
+        <label for="phone"> 
+            <i class="fa-solid fa-phone"></i> 
+            Phone No 
+        </label>
+        <br> 
+        <input type="tel" id="phone" 
+               name="phone" required>
+               <br> 
+        <label for="msg"> 
+            <i class="fa-solid fa-comments" 
+               style="margin-right: 3px;"></i> 
+            Write your Suggestions: 
+        </label>
+        <br> 
+        <textarea id="msg" name="msg" 
+                  rows="4" cols="10" required> 
+        </textarea>
+        <br> 
+        <button type="submit"> 
+            Submit 
+        </button>
+        </form>
+      </div>
+      <!-- <div class="footer">
+        <div class="menu">
+          <h4>Quick Menu</h4>
+          <ul>
+            <li>
+              <a href="">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="mail">
+          <h4>Email us at</h4>
+          <p>tedxsgvs.delhi@gmail.com</p>
+        </div>
+      </div> -->
     </div>
     <footer>
       <p>&copy; 2024 TEDxSGVS. All rights reserved. Designed by <b>Himani Jangid.</b></p>
