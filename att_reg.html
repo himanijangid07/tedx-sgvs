@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team Members - TEDxSGVS</title>
-    <link rel="stylesheet" href="style5.css">
+    <title>Attendees Registration - TEDxSGVS</title>
+    <link rel="stylesheet" href="style6.css">
 </head>
 <body>
     <div class="main">
@@ -25,10 +25,10 @@
               <div class="dropdown">
                 <button class="dropbtn">ABOUT US</button>
                 <div class="dropdown-content">
-                  <a href="#index.html">TED</a>
-                  <a href="index.html">TEDX</a>
-                  <a href="index.html">SGVS</a>
-                  <a href="#">Team Member</a>
+                  <a href="index.html">TED</a>
+                  <a href="#tedx">TEDX</a>
+                  <a href="#sgvs">SGVS</a>
+                  <a href="team.html">Team Member</a>
                 </div>
               </div>
               <div class="dropdown">
@@ -48,14 +48,14 @@
               <div class="dropdown">
                 <button class="dropbtn">REGISTRATION</button>
                 <div class="dropdown-content">
-                  <a href="att_reg.html">Attendees Registration</a>
+                  <a href="#">Attendees Registration</a>
                   <a href="form.html">Speaker Registration</a>
                 </div>
               </div>
               <div class="dropdown">
                 <button class="dropbtn">CONTACT US</button>
                 <div class="dropdown-content">
-                  <a href="index.html">For feedback or query</a>
+                  <a href="#contact">For feedback or query</a>
                   <a href="form.html">For Speaker Registration</a>
                 </div>
               </div>
@@ -63,46 +63,47 @@
           </div>
   
           <div class="content">
-              <img src="images/TEDXSGVS Youth Logo.PNG" alt="">
+              <h1>REGISTRATION</h1>
+              <p>Attendees Registration</p>
           </div>
           <div class="horizontal"></div>
 
-          <div class="team">
-            <h1>Core Team Member of TEDxSGVS</h1>
-            <div class="profile">
-              <!-- <img src="images/profile.webp" alt="">
-              <br>
-              <p>Name, Designation</p>
-              <img src="images/profile.webp" alt="">
-              <img src="images/profile.webp" alt=""> -->
-              <ul>
-                <li>
-                    <img src="images/profile.webp" alt="">
-                    <br>
-                    <div>
-                      <b>Rohit Khurana</b>
-                      <br>
-                      Organiser
-                    </div>
-                </li>
-                <li>
-                    <img src="images/profile.webp" alt="">
-                    <br>
-                    <div>
-                      <b>?</b>
-                      <br>
-                      <!-- Wunderkind -->
-                    </div>
-                </li>
-              </ul>
-            </div>
-          </div>
+          <div class="form">
+            <h2>Attendees Registration Form</h2>
+            <p>
+                The ticket price for the TEDxSGVS Youth Event is <b>100$.</b>
+                <a href="">
+                    <button>Click Me for Payment</button>
+                </a>
+            </p>
+
+            <p id="para">After making the payment, kindly fill the form below.</p>
+            
+            <form action="https://formsubmit.co/tedxsgvs.delhi@gmail.com" method="POST">
+                <label for="fname">First name</label><br>
+                <input type="text" id="fname" name="fname" required><br>
+                <label for="lname">Last name</label><br>
+                <input type="text" id="lname" name="lname" required><br>
+                <label for="email">Email Id</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="phone">Phone Number</label><br>
+                <input type="tel" id="phone" name="phone" required><br>
+                <label for="address">Address</label><br>
+                <input type="text" id="address" name="address" required><br>
+                <div class="file">
+                    <label for="myfile">Upload Screenshot of Payment: </label><br>
+                    <input type="file" id="myfile" name="myfile" required><br>
+                </div>
+                <input type="submit" value="Submit" id="submit">                
+            </form>
+        </div>
+
           <div class="footer">
             <div class="menu">
               <h4>Quick Menu</h4>
               <ul>
                 <li>
-                  <a href="">Contact</a>
+                  <a href="index.html">Contact</a>
                 </li>
               </ul>
             </div>
@@ -110,11 +111,12 @@
               <h4>Email us at</h4>
               <p>tedxsgvs.delhi@gmail.com</p>
             </div>
-          </div>
+        </div>
+
+          <footer>
+            <p>&copy; 2024 TEDxSGVS. All rights reserved. Designed by <b>Himani Jangid.</b></p>
+          </footer>
+          <script src="script.js"></script>
     </div>
-    <footer>
-        <p>&copy; 2024 TEDxSGVS. All rights reserved. Designed by <b>Himani Jangid.</b></p>
-      </footer>
-      <script src="script.js"></script>
 </body>
 </html>

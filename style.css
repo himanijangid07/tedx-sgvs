@@ -764,8 +764,15 @@ footer {
         width: 100vw;
     }
 
+    #scroll-text
+    {
+        display: block;
+    }
+
     .content {
         flex-direction: column;
+        justify-self: center;
+        align-items: center;
     }
 
     .left {
@@ -777,8 +784,8 @@ footer {
     }
 
     .left button {
-        margin-left: 29vw;
-        margin-top: 5vw;
+        /* margin-left: 29vw;
+        margin-top: 5vw; */
         width: 35vw;
     }
 
@@ -886,7 +893,7 @@ footer {
 
     .right img {
         width: 60vw;
-        margin-left: 21vw;
+        /* margin-left: 21vw; */
     }
 
     .w3-content {
@@ -901,6 +908,7 @@ footer {
 
     .profile ul {
         flex-direction: column;
+        gap: 7vw;
     }
 
     .profile ul li {
