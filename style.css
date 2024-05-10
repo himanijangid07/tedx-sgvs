@@ -701,6 +701,7 @@ body {
 
 .form {
     margin-left: 2vw;
+    text-align: center;
 }
 
 .form label {
@@ -722,6 +723,7 @@ body {
     background-color: red;
     border-radius: 0.5vw;
     margin-top: 1vw;
+    margin-bottom: 2vw;
 }
 
 .form button:hover {
