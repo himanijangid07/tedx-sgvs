@@ -175,6 +175,7 @@ body {
     width: 100%;
     display: flex;
     margin-bottom: 3vw;
+    gap: 2vw;
     /* justify-content: center;
     align-items: center; */
 }
@@ -197,16 +198,17 @@ body {
 .left {
     height: 100%;
     width: 50%;
-    margin: 8vw 5vw;
+    margin: 8vw 12vw;
 }
   
 .right {
     height: 100%;
     width: 50%;
+    margin-right: 12vw;
 }
   
 .left p {
-    font-size: 8vh;
+    font-size: 6vh;
     width: 100%;
     color: white;
 }
@@ -333,7 +335,7 @@ body {
 
 .right img {
     height: 100vh;
-    width: 40vw;
+    width: 30vw;
     margin-top: 5vw;
     margin-right: 1vw;
 }
@@ -675,6 +677,7 @@ body {
 
 .contact {
     margin: 2vw;
+    text-align: center;
 }
 
 .contact h2 {
@@ -697,22 +700,31 @@ body {
 .contact ul {
     display: flex;
     gap: 0.5vw;
+    justify-content: center;
+}
+
+.contact ul li a {
+    color: white;
+    text-decoration: none;
 }
 
 .form {
+    margin-left: 2vw;
     text-align: center;
 }
 
 .form label {
     color: white;
     margin-top: 1vw;
-    margin-bottom: 1vw;
+    margin-bottom: 1.5vw;
 }
 
 .form input {
     width: 20%;
     margin-bottom: 1vw;
     border-radius: 0.5vw;
+    height: 4vh;
+    margin-top: 0.8vw;
 }
 
 .form button {
@@ -755,6 +767,7 @@ footer {
 
     .nav2 img {
         width: 40vw;
+        height: 5vh;
     }
 
     .nav3 i {
@@ -762,7 +775,8 @@ footer {
     }
 
     #scroll-container {
-        width: 100vw;
+        width: auto;
+        height: auto;
     }
 
     #scroll-text
@@ -785,8 +799,8 @@ footer {
     }
 
     .left button {
-        /* margin-left: 29vw;
-        margin-top: 5vw; */
+        margin-left: 29vw;
+        margin-top: 5vw;
         width: 35vw;
     }
 
@@ -921,11 +935,7 @@ footer {
     }
 
     .contact ul li {
-        margin-left: 9vw;
-    }
-
-    .contact ul li a svg {
-        display: none;
+        margin-left: 5vw;
     }
 
     .form {
@@ -946,6 +956,7 @@ footer {
         margin-bottom: 3vw;
     }
 }
+
 @media (max-width: 768px) {
     .nav .dropdown, .dropbtn {
         display: none;
@@ -1053,7 +1064,7 @@ footer {
     }
 
     .w3-content {
-        height: 90vh;
+        height: inherit;
     }
 
     .w3-container p {
