@@ -192,3 +192,36 @@ footer {
         margin-right: 20vw;
     }
 }
+
+@media (max-width: 768px) {
+    .nav .dropbtn, .dropdown {
+        display: none;
+    }
+
+    .rules {
+        height: inherit;
+        margin-bottom: 2vw;
+    }
+
+    .rules ul {
+        margin-left: 10vw;
+    }
+
+    .rules ul li {
+        width: 90%;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 5vw;
+        margin-bottom: 5vw;
+    }
+
+    .footer .menu {
+        margin-right: 70vw;
+    }
+
+    .footer .mail {
+        margin-right: 57vw;
+    }
+}
