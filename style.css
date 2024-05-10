@@ -1052,7 +1052,7 @@ footer {
     }
 
     .w3-content {
-        height: 142vh;
+        height: inherit;
     }
 
     .w3-container p {
