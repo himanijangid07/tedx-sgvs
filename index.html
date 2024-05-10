@@ -2,12 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
     <title>TEDxSGVS</title>
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
-      rel="stylesheet"/>
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="main">
@@ -65,7 +69,8 @@
       <div id="scroll-container">
         <div id="scroll-text">
           <p>
-            The <span>TEDxSGVS Youth</span> is happening on 29 June 2024. The theme for the event is <span>"Limitless Potential".</span> 
+            The <span>TEDxSGVS Youth</span> is happening on 29 June 2024. The
+            theme for the event is <span>"Limitless Potential".</span>
           </p>
         </div>
       </div>
@@ -79,31 +84,52 @@
           <!-- A button to open the popup form -->
           <button class="open-button" onclick="openForm()">Buy Tickets</button>
 
-<!-- The form -->
+          <!-- The form -->
           <div class="form-popup" id="myForm">
-          <form action="https://formsubmit.co/tedxsgvs.delhi@gmail.com" method="POST" class="form-container">
-          <h1>Ticket Window for TEDxSGVS</h1>
+            <form
+              action="https://formsubmit.co/tedxsgvs.delhi@gmail.com"
+              method="POST"
+              class="form-container"
+            >
+              <h1>Ticket Window for TEDxSGVS</h1>
 
-          <p>The ticket price for the TEDxSGVS Youth is <b>100$.</b></p>
+              <p>The ticket price for the TEDxSGVS Youth is <b>100$.</b></p>
 
-            <!-- <label for="name"><b>Full Name</b></label> -->
-            <input type="text" placeholder="Enter Your Full Name" name="name" required>
+              <!-- <label for="name"><b>Full Name</b></label> -->
+              <input
+                type="text"
+                placeholder="Enter Your Full Name"
+                name="name"
+                required
+              />
 
-            <!-- <label for="email"><b>Email</b></label> -->
-            <input type="text" placeholder="Enter Email" name="email" required>
+              <!-- <label for="email"><b>Email</b></label> -->
+              <input
+                type="text"
+                placeholder="Enter Email"
+                name="email"
+                required
+              />
 
-            <!-- <label for="phone"><b>Phone Number</b></label> -->
-            <input type="tel" placeholder="Enter Phone Number" name="phone" required>
+              <!-- <label for="phone"><b>Phone Number</b></label> -->
+              <input
+                type="tel"
+                placeholder="Enter Phone Number"
+                name="phone"
+                required
+              />
 
-            <label for="payss"><b>Screenshot of Payment</b><br></label>
-            <input type="file" name="payss" required>
+              <label for="payss"><b>Screenshot of Payment</b><br /></label>
+              <input type="file" name="payss" required />
 
-            <div class="button">
-              <button type="submit" class="btn">Submit</button>
-              <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-            </div>
-          </form>
-        </div>
+              <div class="button">
+                <button type="submit" class="btn">Submit</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">
+                  Close
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
         <div class="right">
           <img src="images/banner.jpg" alt="" />
@@ -118,21 +144,21 @@
           <div class="mySlides fade">
             <img src="images/1.webp" style="width: 100%" />
           </div>
-  
+
           <div class="mySlides fade">
             <img src="images/2.jpg" style="width: 100%" />
           </div>
-  
+
           <div class="mySlides fade">
             <img src="images/2.jpg" style="width: 100%" />
           </div>
-  
+
           <!-- Next and previous buttons -->
           <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
           <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
         <br />
-  
+
         <!-- The dots/circles -->
         <div style="text-align: center">
           <span class="dot" onclick="currentSlide(1)"></span>
@@ -195,11 +221,12 @@
         </div>
       </div> -->
 
-      <div id="ted" class="w3-content" style="max-width:100%">
+      <div id="ted" class="w3-content" style="max-width: 100%">
         <div class="mySlides1 w3-container w3-red">
           <h1><b>About TED</b></h1>
           <div class="para">
-            <p>Centered around topics like compact disks, e-books, and fractal
+            <p>
+              Centered around topics like compact disks, e-books, and fractal
               mapping of coastlines, TED (Technology, Entertainment, and Design)
               has evolved into a global beacon of creativity and intellect.
               Initially featuring a narrow range of panelists, TED gradually
@@ -210,34 +237,39 @@
               traveling conference held in various locales, and the TED Prize,
               offering recipients the opportunity to catalyze positive change.
               TED has since embraced inclusivity, welcoming all into its fold
-              and continually inspiring progress.</p>
+              and continually inspiring progress.
+            </p>
           </div>
         </div>
-      
+
         <div class="mySlides1 w3-container w3-xlarge w3-white w3-card-4">
           <h1><b>About TEDx</b></h1>
-          <p>TEDx is an initiative to promote 'ideas worth spreading' in local
+          <p>
+            TEDx is an initiative to promote 'ideas worth spreading' in local
             communities across the world. Steered by passionate individuals,
             TEDx events aim to infuse the spirit of TED at the grassroot level
-            through a series of independently organised events. These events
-            are aimed at bringing new ideas and stories to the society so as
-            to inspire and spark meaningful conversations. These events, under
-            the umbrella of TED, adhere to set of prescribed guidelines
-            provided alongwith the license. More than 3000 events are held as
-            part of TEDx each year.</p>
+            through a series of independently organised events. These events are
+            aimed at bringing new ideas and stories to the society so as to
+            inspire and spark meaningful conversations. These events, under the
+            umbrella of TED, adhere to set of prescribed guidelines provided
+            alongwith the license. More than 3000 events are held as part of
+            TEDx each year.
+          </p>
         </div>
 
         <div class="mySlides1 w3-container w3-red">
           <h1><b>About SGVS</b></h1>
-          <p>With a motto, “Arise, awake & stop not till the goal is achieved”,
-            SGVS has taken it as a challenge to imbibe in students right
-            values, awareness of their strengths and weakness, to make them
-            able to think creatively, to become techno savvy and showcase
-            their hidden talent, also to develop a spirit of camaraderie and
-            competitiveness. One can witness its orchestration with superb
-            precision by highlighting its unique design based on new concepts
-            and ideas; it is all set to deliver a value proposition which
-            exceeds everyone's expectation.</p>
+          <p>
+            With a motto, “Arise, awake & stop not till the goal is achieved”,
+            SGVS has taken it as a challenge to imbibe in students right values,
+            awareness of their strengths and weakness, to make them able to
+            think creatively, to become techno savvy and showcase their hidden
+            talent, also to develop a spirit of camaraderie and competitiveness.
+            One can witness its orchestration with superb precision by
+            highlighting its unique design based on new concepts and ideas; it
+            is all set to deliver a value proposition which exceeds everyone's
+            expectation.
+          </p>
         </div>
       </div>
 
@@ -254,22 +286,22 @@
           <ul>
             <li>
               <a href="speakers.html">
-                <img src="images/profile1.jpg" alt="">
-                <br>
+                <img src="images/profile1.jpg" alt="" />
+                <br />
                 <div>
                   <b>Adv Heena Khurana Nagpal</b>
-                  <br>
+                  <br />
                   Advocate
                 </div>
               </a>
             </li>
             <li>
               <a href="speakers.html">
-                <img src="images/profile2.jpg" alt="">
-                <br>
+                <img src="images/profile2.jpg" alt="" />
+                <br />
                 <div>
                   <b>Avika Jain</b>
-                  <br>
+                  <br />
                   Wunderkind
                 </div>
               </a>
@@ -285,21 +317,21 @@
           <ul>
             <li>
               <a href="speakers.html">
-                <img src="images/profile3.jpg" alt="">
-                <br>
+                <img src="images/profile3.jpg" alt="" />
+                <br />
                 <div>
                   <b>Dr Ati Priye</b>
-                  <br>
-                  CEO - Incubator - CGC Division of 
-                  <br>
+                  <br />
+                  CEO - Incubator - CGC Division of
+                  <br />
                   Research & Innovation
                 </div>
               </a>
             </li>
             <li>
               <a href="speakers.html">
-                <img src="images/11.png" alt="">
-                <br>
+                <img src="images/11.png" alt="" />
+                <br />
               </a>
               <!-- <div class="box">?</div> -->
             </li>
@@ -314,15 +346,15 @@
           <ul>
             <li>
               <a href="speakers.html">
-                <img src="images/12.png" alt="">
-                <br>
+                <img src="images/12.png" alt="" />
+                <br />
               </a>
               <!-- <div class="box">You can be the next one..</div> -->
             </li>
             <li>
               <a href="speakers.html">
-                <img src="images/13.png" alt="">
-                <br>
+                <img src="images/13.png" alt="" />
+                <br />
               </a>
               <!-- <div class="box">Imagining yourself here??</div> -->
             </li>
@@ -334,58 +366,66 @@
 
       <div class="contact" id="contact">
         <h2>Contact Information</h2>
-        <p>For any query, feedback or registration of speakers, feel free to contact us at:</p>
+        <p>
+          For any query, feedback or registration of speakers, feel free to
+          contact us at:
+        </p>
         <ul>
           <li>
-            <a href="mailto:tedxsgvs.delhi@gmail.com" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="2vw"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#eb0000" d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/></svg></a>
+            <a href="mailto:tedxsgvs.delhi@gmail.com"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+                width="2vw"
+              >
+                <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                  fill="#eb0000"
+                  d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"
+                /></svg
+            ></a>
           </li>
           <li>
-            <a href="mailto:tedxsgvs.delhi@gmail.com" >tedxsgvs.delhi@gmail.com</a>
+            <a href="mailto:tedxsgvs.delhi@gmail.com"
+              >tedxsgvs.delhi@gmail.com</a
+            >
           </li>
         </ul>
       </div>
 
       <div class="form">
-        <form action="mailto:tedxsgvs.delhi@gmail.com" method="post">
-          <label for="uname"> 
-            <i class="fa fa-solid fa-user"></i> 
-            Full Name 
-        </label>
-        <br> 
-        <input type="text" id="uname" 
-               name="uname" required>
-               <br> 
-  
-        <label for="email"> 
-            <i class="fa fa-solid fa-envelope"></i> 
-            Email Address 
-        </label>
-        <br> 
-        <input type="email" id="email" 
-               name="email" required> 
-               <br>
-  
-        <label for="phone"> 
-            <i class="fa-solid fa-phone"></i> 
-            Phone No 
-        </label>
-        <br> 
-        <input type="tel" id="phone" 
-               name="phone" required>
-               <br> 
-        <label for="msg"> 
-            <i class="fa-solid fa-comments" 
-               style="margin-right: 3px;"></i> 
-            Write your Suggestions: 
-        </label>
-        <br> 
-        <textarea id="msg" name="msg" 
-                  rows="4" cols="10" required> 
-        </textarea>
-        <br> 
-        <button type="submit"> 
-            Submit 
-        </button>
+        <form action="mailto:himanijangid07@gmail.com" method="post">
+          <label for="uname">
+            <i class="fa fa-solid fa-user"></i>
+            Full Name
+          </label>
+          <br />
+          <input type="text" id="uname" name="uname" required />
+          <br />
+
+          <label for="email">
+            <i class="fa fa-solid fa-envelope"></i>
+            Email Address
+          </label>
+          <br />
+          <input type="email" id="email" name="email" required />
+          <br />
+
+          <label for="phone">
+            <i class="fa-solid fa-phone"></i>
+            Phone Number
+          </label>
+          <br />
+          <input type="tel" id="phone" name="phone" required />
+          <br />
+          <label for="msg">
+            <i class="fa-solid fa-comments" style="margin-right: 3px"></i>
+            Write your Suggestions:
+          </label>
+          <br />
+          <textarea id="msg" name="msg" rows="4" cols="10" required> </textarea>
+          <br />
+          <button type="submit">Submit</button>
         </form>
       </div>
       <!-- <div class="footer">
@@ -404,7 +444,10 @@
       </div> -->
     </div>
     <footer>
-      <p>&copy; 2024 TEDxSGVS. All rights reserved. Designed by <b>Himani Jangid.</b></p>
+      <p>
+        &copy; 2024 TEDxSGVS. All rights reserved. Designed by
+        <b>Himani Jangid.</b>
+      </p>
     </footer>
     <script src="script.js"></script>
   </body>

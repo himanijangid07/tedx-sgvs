@@ -175,6 +175,7 @@ body {
     width: 100%;
     display: flex;
     margin-bottom: 3vw;
+    gap: 2vw;
     /* justify-content: center;
     align-items: center; */
 }
@@ -197,16 +198,17 @@ body {
 .left {
     height: 100%;
     width: 50%;
-    margin: 8vw 5vw;
+    margin: 8vw 12vw;
 }
   
 .right {
     height: 100%;
     width: 50%;
+    margin-right: 12vw;
 }
   
 .left p {
-    font-size: 8vh;
+    font-size: 6vh;
     width: 100%;
     color: white;
 }
@@ -333,7 +335,7 @@ body {
 
 .right img {
     height: 100vh;
-    width: 40vw;
+    width: 30vw;
     margin-top: 5vw;
     margin-right: 1vw;
 }
@@ -675,6 +677,7 @@ body {
 
 .contact {
     margin: 2vw;
+    text-align: center;
 }
 
 .contact h2 {
@@ -697,22 +700,31 @@ body {
 .contact ul {
     display: flex;
     gap: 0.5vw;
+    justify-content: center;
+}
+
+.contact ul li a {
+    color: white;
+    text-decoration: none;
 }
 
 .form {
     margin-left: 2vw;
+    text-align: center;
 }
 
 .form label {
     color: white;
     margin-top: 1vw;
-    margin-bottom: 1vw;
+    margin-bottom: 1.5vw;
 }
 
 .form input {
     width: 20%;
     margin-bottom: 1vw;
     border-radius: 0.5vw;
+    height: 4vh;
+    margin-top: 0.8vw;
 }
 
 .form button {
@@ -722,6 +734,7 @@ body {
     background-color: red;
     border-radius: 0.5vw;
     margin-top: 1vw;
+    margin-bottom: 2vw;
 }
 
 .form button:hover {
@@ -748,12 +761,13 @@ footer {
 }
 
 @media (max-width: 360px) {
-    .nav .dropdown, .dropbtn {
+    /* .nav .dropdown, .dropbtn {
         display: none;
-    }
+    } */
 
     .nav2 img {
         width: 40vw;
+        height: 5vh;
     }
 
     .nav3 i {
@@ -761,7 +775,8 @@ footer {
     }
 
     #scroll-container {
-        width: 100vw;
+        width: auto;
+        height: auto;
     }
 
     #scroll-text
@@ -784,8 +799,8 @@ footer {
     }
 
     .left button {
-        /* margin-left: 29vw;
-        margin-top: 5vw; */
+        margin-left: 29vw;
+        margin-top: 5vw;
         width: 35vw;
     }
 
@@ -897,7 +912,159 @@ footer {
     }
 
     .w3-content {
-        height: 142vh;
+        height: 90vh;
+    }
+
+    .w3-container p {
+        width: 70%;
+        margin-left: 16vw;
+        text-align: justify;
+    }
+
+    .profile ul {
+        flex-direction: column;
+        gap: 7vw;
+    }
+
+    .profile ul li {
+        margin-bottom: 1vw;
+    }
+
+    .contact p {
+        margin-left: 5vw;
+    }
+
+    .contact ul li {
+        margin-left: 5vw;
+    }
+
+    .form {
+        margin-left: 5vw;
+    }
+
+    .form input {
+        width: 80%;
+        height: 4vh;
+    }
+
+    .form textarea {
+        width: 80%;
+    }
+    
+    .form button {
+        width: 18vw;
+        margin-bottom: 3vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav .dropdown, .dropbtn {
+        display: none;
+    }
+
+    .nav2 img {
+        width: 40vw;
+    }
+
+    .nav3 i {
+        display: block;
+    }
+
+    #scroll-container {
+        width: 100vw;
+    }
+
+    .content {
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+    }
+
+    .left {
+        width: 90vw;
+    }
+
+    .left p {
+        text-align: center;
+    }
+
+    .left button {
+        width: 35vw;
+    }
+
+    .form-popup {
+        display: none;
+    }
+
+    .form-container {
+        width: 60vw;
+        height: 100%;
+    }
+
+    #myForm {
+        margin-top: 1vw;
+        margin-right: 12vw;
+        margin-bottom: 5vw;
+    }
+
+    .form-container h1 {
+        font-size: 3vh;
+    }
+
+    .form-container label {
+        margin-left: 1vw;
+    }
+
+    .form-container input[type=text], .form-container input[type=tel] {
+        width: 90%;
+        padding: 5px;
+        margin: 5px 5px 20px 0;
+        border: none;
+        border-bottom: 1px solid #333;
+        background: transparent;
+    }
+
+    .form-container input[type=file] {
+        margin: 5px 0 22px 0;
+    }
+
+    .form-container input[type=file]::file-selector-button {
+        border: 2px solid #333;
+        padding: .2em .4em;
+        border-radius: .2em;
+        background-color: #333;
+        transition: 1s;
+        margin-left: 1vw;
+        color: white;
+    }
+
+    .form-container input[type=text]:focus, .form-container input[type=file]:focus {
+        background-color: #ddd;
+        outline: none;
+    }
+
+    .form-container .btn {
+        width: 40%;
+        margin-left: 4vw;
+        margin-top: 0.5vw;
+    }
+
+    .form-container p {
+        font-size: 3vh;
+        text-align: center;
+        margin-bottom: 1vw;
+    }
+
+    .button {
+        display: flex;
+    }
+
+    .right img {
+        width: 60vw;
+    }
+
+    .w3-content {
+        height: inherit;
     }
 
     .w3-container p {
@@ -939,7 +1106,7 @@ footer {
     .form textarea {
         width: 80%;
     }
-    
+
     .form button {
         width: 18vw;
         margin-bottom: 3vw;
