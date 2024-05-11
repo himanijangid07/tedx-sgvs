@@ -19,6 +19,8 @@ body {
 
 .nav i {
     display: none;
+    color: white;
+    width: 2vw;
 }
 
 .nav2 {
@@ -294,7 +296,7 @@ body {
     transition: 1s;
     margin-left: 1vw;
     color: white;
-  }
+}
 
 /* When the inputs get focus, do something */
 .form-container input[type=text]:focus, .form-container input[type=file]:focus {
@@ -428,7 +430,7 @@ body {
 #slideshow {
     padding-bottom: 10px;
     border-bottom: 3px solid black;
-  }
+}
   
   /* Slideshow container */
 .slideshow-container {
@@ -436,7 +438,7 @@ body {
     position: relative;
     margin: auto;
     padding-top: 10px;
-  }
+}
   
   /* Hide the images by default
   .mySlides {
@@ -444,8 +446,8 @@ body {
   } */
   
   /* Next & previous buttons */
-  .prev,
-  .next {
+.prev,
+.next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -458,22 +460,22 @@ body {
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
-  }
+}
   
   /* Position the "next button" to the right */
-  .next {
+.next {
     right: 0;
     border-radius: 3px 0 0 3px;
-  }
+}
   
   /* On hover, add a black background color with a little bit see-through */
-  .prev:hover,
-  .next:hover {
+.prev:hover,
+.next:hover {
     background-color: rgba(0, 0, 0, 0.8);
-  }
+}
   
   /* The dots/bullets/indicators */
-  .dot {
+.dot {
     cursor: pointer;
     height: 15px;
     width: 15px;
@@ -482,20 +484,20 @@ body {
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-  }
+}
   
-  .active,
-  .dot:hover {
+.active,
+.dot:hover {
     background-color: #717171;
-  }
+}
   
   /* Fading animation */
-  .fade {
+.fade {
     animation-name: fade;
     animation-duration: 1.5s;
-  }
+}
   
-  @keyframes fade {
+@keyframes fade {
     from {
       opacity: 0.4;
     }
@@ -747,6 +749,10 @@ body {
     margin-top: 1vw;
 }
 
+.form i {
+    color: white;
+}
+
 .footer {
     display: flex;
     color: white;
@@ -771,7 +777,7 @@ footer {
     }
 
     .nav3 i {
-        display: block;
+        display: inline;
     }
 
     #scroll-container {
@@ -930,12 +936,16 @@ footer {
         margin-bottom: 1vw;
     }
 
+    .profile ul li div {
+        font-size: 2.5vh;
+    }
+
     .contact p {
         margin-left: 5vw;
     }
 
     .contact ul li {
-        margin-left: 5vw;
+        margin-left: 3vw;
     }
 
     .form {

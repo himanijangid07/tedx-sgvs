@@ -104,7 +104,7 @@ body {
 
 .rules {
     background-color: #333333;
-    height: 95vh;
+    height: inherit;
 }
 
 .rules h1 {
@@ -185,11 +185,13 @@ footer {
     }
 
     .footer .menu {
-        margin-right: 50vw;
+        margin-left: 30vw;
+        width: 45vw;
     }
 
     .footer .mail {
-        margin-right: 20vw;
+        margin-right: 0vw;
+        margin-left: 30vw;
     }
 }
 
@@ -224,8 +226,4 @@ footer {
     .footer .mail {
         margin-right: 57vw;
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 58ac81ead1ae9455dc0f828f134da237f19d21b9

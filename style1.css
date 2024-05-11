@@ -191,3 +191,28 @@ footer {
     margin-bottom: 1vw;
     font-size: 2vh;
 }
+
+@media (max-width: 360px) {
+    .nav3, .dropdown-content, .dropbtn {
+        display: none;
+    }
+
+    .form input {
+        width: 80%;
+    }
+
+    .form #submit {
+        width: 25vw;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 5vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer .menu {
+        margin-right: 30vw;
+    }
+}
