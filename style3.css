@@ -39,6 +39,12 @@ body {
     padding: 14px 16px;
     text-decoration: none;
 }
+
+.nav3 i {
+    display: none;
+    color: white;
+    width: 2vw;
+}
   
 .dropdown {
     float: left;
@@ -162,8 +168,18 @@ footer {
 }
 
 @media (max-width: 360px) {
-    .nav .dropbtn, .dropdown {
+    .nav .dropdown, .dropbtn {
         display: none;
+    }
+
+    .nav2 img {
+        width: 40vw;
+        height: 5vh;
+    }
+
+    .nav3 i {
+        display: inline;
+        width: 5vw;
     }
 
     .rules {
@@ -179,51 +195,86 @@ footer {
     }
 
     .footer {
-        flex-direction: column;
-        gap: 5vw;
-        margin-bottom: 5vw;
+        gap: 20vw;
+        margin-left: 2vw;
+        margin-top: 2vw;
+        margin-bottom: 1vw;
     }
 
-    .footer .menu {
-        margin-left: 30vw;
-        width: 45vw;
+    .footer h4 {
+        font-size: 3vh;
     }
 
-    .footer .mail {
-        margin-right: 0vw;
-        margin-left: 30vw;
+    .footer p {
+        font-size: 2.5vh;
+    }
+
+    .footer ul li a {
+        font-size: 2.5vh;
+    }
+
+    footer {
+        font-size: 2vh;
+        margin-top: 4vw;
     }
 }
 
 @media (max-width: 768px) {
-    .nav .dropbtn, .dropdown {
-        display: none;
+    .nav2 img {
+        height: 8vh;
+        width: 20vw;
     }
 
-    .rules {
-        height: inherit;
-        margin-bottom: 2vw;
+    .nav3 {
+        margin-right: 1vw;
     }
 
-    .rules ul {
-        margin-left: 10vw;
+    .dropdown .dropbtn {
+        padding: 8px 18px;
     }
 
-    .rules ul li {
-        width: 90%;
+    .content img {
+        height: 40vh;
+    }
+
+    .horizontal {
+        height: 1px;
+        line-height: 50%;
+    }
+
+    .profile ul {
+        gap: 10vw;
+    }
+
+    .profile ul li div {
+        font-size: 3.5vh;
+    }
+
+    .profile ul li img {
+        width: 15vw;
+        height: 15vw;
     }
 
     .footer {
-        flex-direction: column;
-        gap: 5vw;
-        margin-bottom: 5vw;
+        gap: 20vw;
+        margin-left: 2vw;
+        margin-top: 2vw;
+        margin-bottom: 1vw;
     }
 
-    .footer .menu {
-        margin-right: 70vw;
+    .footer h4 {
+        font-size: 3vh;
     }
 
-    .footer .mail {
-        margin-right: 57vw;
+    .footer p {
+        font-size: 2.5vh;
+    }
+
+    .footer ul li a {
+        font-size: 2.5vh;
+    }
+
+    footer {
+        font-size: 2vh;
     }
 }

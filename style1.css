@@ -39,6 +39,12 @@ body {
     padding: 14px 16px;
     text-decoration: none;
 }
+
+.nav3 i {
+    display: none;
+    color: white;
+    width: 2vw;
+}
   
 .dropdown {
     float: left;
@@ -193,8 +199,18 @@ footer {
 }
 
 @media (max-width: 360px) {
-    .nav3, .dropdown-content, .dropbtn {
+    .nav .dropdown, .dropbtn {
         display: none;
+    }
+
+    .nav2 img {
+        width: 40vw;
+        height: 5vh;
+    }
+
+    .nav3 i {
+        display: inline;
+        width: 5vw;
     }
 
     .form input {
@@ -206,13 +222,75 @@ footer {
     }
 
     .footer {
-        flex-direction: column;
-        gap: 5vw;
-        justify-content: center;
-        align-items: center;
+        gap: 15vw;
+        margin-left: 2vw;
+        margin-top: 2vw;
+        margin-bottom: 1vw;
     }
 
-    .footer .menu {
-        margin-right: 30vw;
+    .footer h4 {
+        font-size: 3vh;
+    }
+
+    .footer p {
+        font-size: 2.5vh;
+    }
+
+    .footer ul li a {
+        font-size: 2.5vh;
+    }
+
+    footer {
+        font-size: 2vh;
+        margin-top: 4vw;
     }
 }
+
+@media (max-width: 768px) {
+    .nav2 img {
+      width: 50%;
+      height: auto;
+    }
+  
+    .nav3 {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    .nav3.active {
+      display: flex;
+    }
+  
+    .dropdown {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .dropdown-content {
+      position: static;
+      display: none;
+      text-align: center;
+    }
+  
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  
+    .dropbtn {
+      display: block;
+      width: 100%;
+    }
+  
+    .nav3 i {
+      display: block;
+      color: white;
+      width: 2vw;
+      text-align: right;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+  }
+  
